@@ -1,0 +1,148 @@
+# Site
+repository: riccardocogo93/riccardocogo93.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Riccardo Cogo
+title: Ph.D. Student at University of Milano-Bicocca
+email: r.cogo1@campus.unimib.it
+# website: www.github.com/riccardocogo93/riccardocogo93.github.io
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username:  riccardocogo93
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: riccogo93
+linkedin_username: riccardo-cogo-9039a6150
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  I am a Ph.D. student in Statistics at the department of Economics, Management and Statistics (DEMS) of University of Milano-Bicocca ([ECOSTAT - XXXVI Cycle](https://www.dems.unimib.it/en/research/phd-programme)). I currently live in Turin, Italy.
+
+  I am also a Data Scientist at Intesa Sanpaolo and my job is the development of projects that, through machine learning algorithms and other quantitative methods, can lead to business development.
+
+  Whether at work or University, I mainly use Python and R, but I am open to a variety of programming languages, which I used to cover the various phases of a data science project (data wrangling, modelling, programming and visualizing).
+
+  My complete curriculum vitae is available at [this link](https://github.com/riccardocogo93/riccardocogo93.github.io/tree/master/files/CV_COGO.pdf).
+
+content:
+  - title: Education
+    layout: list
+    content:
+      - layout: top-left
+        title: University of Milano-Bicocca
+        sub_title: Ph.D. in Statistics
+        # link: https://www.dems.unimib.it/en/research/phd-programme
+        caption: 2020 - Present
+        # quote: >
+        description: | # this will include new lines to allow paragraphs
+          Four year Ph.D. course, first 18 months are entirely dedicated to courses and exams
+
+          Overall GPA (first year courses): 28.49/30
+
+      - layout: top-left
+        title: University of Turin
+        sub_title: M.Sc. in Mathematics
+        caption: 2015-2017
+        # quote: >
+        description: | # this will include new lines to allow paragraphs
+
+          Overall GPA: 29.93/30. Final Mark: 110/110 with honors.
+
+          <mark>Thesis Title</mark>: Study of Some Overdetermined Elliptic Problems (advisor: prof. [Paolo Caldiroli](https://www.matematica.unito.it/do/docenti.pl/Alias?paolo.caldiroli#tab-profilo)).
+
+          In the context of elliptical problems with data on the edge, the thesis deals with overdetermined problems, i.e. those problems defined by a PDE defined on a domain and by two boundary conditions,
+          a Dirichlet and a Neumann. The thesis considers some examples of overdetermined elliptic problems and assuming that they admit a solution,
+          it makes an attempt to study the geometric and topological properties of its domain.
+
+      - layout: top-left
+        title: University of Turin
+        sub_title: B.Sc. in Mathematics
+        caption: 2012-2015
+        # quote: >
+        description: | # this will include new lines to allow paragraphs
+
+          Overall GPA: 29.48/30. Final Mark: 110/110 with honors.
+
+          <mark>Thesis Title</mark>: Area and Coarea Formulas and Their Applications in Integral Calculus (advisor: prof. [Paolo Caldiroli](https://www.matematica.unito.it/do/docenti.pl/Alias?paolo.caldiroli#tab-profilo)).
+
+          This thesis deals with the complete demonstrations of the Area and Coarea Formulas and the presentation of some of their notable applications.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Big Data Lab @ Intesa Sanpaolo
+        sub_title: Data Scientist
+        caption: 2018 - Present
+        # quote: >
+        description: | # this will include new lines to allow paragraphs
+            Part of the Data Science team, with the aim of developing end-to-end projects with other areas of the Bank. Projects are mostly developed as R or Python packages.
+
+  # - title: Education # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: left
+  #       title: Harvard University
+  #       caption: 2010 - 2013
+  #       sub_title: BSc Computer Science
+  #       quote: >
+  #         Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+  #       description: | # this will include new lines to allow paragraphs
+  #         During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+  #
+  #         I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Rock climbing
+      - Gaming
+      - Knitting
+      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
