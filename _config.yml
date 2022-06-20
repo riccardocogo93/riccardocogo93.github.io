@@ -54,13 +54,13 @@ about_content: | # this will include new lines to allow paragraphs
 
   Whether at work or University, I mainly use Python and R, but I am open to a variety of programming languages, which I used to cover the various phases of a data science project (data wrangling, modelling, programming and visualizing).
 
-  My complete curriculum vitae is available at [this link](https://github.com/riccardocogo93/riccardocogo93.github.io/tree/master/files/CV_COGO.pdf).
+  My complete curriculum vitae is available at [this link](/files/CV_COGO.pdf).
 
 content:
   - title: Education
     layout: list
     content:
-      - layout: top-left
+      - layout: left
         title: University of Milano-Bicocca
         sub_title: Ph.D. in Statistics
         # link: https://www.dems.unimib.it/en/research/phd-programme
@@ -71,7 +71,7 @@ content:
 
           Overall GPA (first year courses): 28.49/30
 
-      - layout: top-left
+      - layout: left
         title: University of Turin
         sub_title: M.Sc. in Mathematics
         caption: 2015-2017
@@ -86,7 +86,7 @@ content:
           a Dirichlet and a Neumann. The thesis considers some examples of overdetermined elliptic problems and assuming that they admit a solution,
           it makes an attempt to study the geometric and topological properties of its domain.
 
-      - layout: top-left
+      - layout: left
         title: University of Turin
         sub_title: B.Sc. in Mathematics
         caption: 2012-2015
@@ -125,7 +125,7 @@ content:
         # quote: >
         description: | # this will include new lines to allow paragraphs
             Part of the team supporting the Senior VP of Market Division. Development of control algorithms for Market Abuse regulations.
-            
+
       - layout: left
         title: University of Turin
         sub_title: Assistant and Tutor
@@ -135,6 +135,17 @@ content:
             Tutor of the "Mathematical Analysis I" course (Department of Mathematics).
 
             Tutor of the "Maths and Physics" course (Department of Biological Sciences).
+
+  - title: Courses and Summer Schools
+    layout: text
+    content: |
+      Other courses I've followed.
+      - **Big Dive: Data Science and Analytics**.Top-IX, Turin, Spring 2019 (Final Project: *NLP and NER on Corporate News*).
+
+      Summer Schools.
+      - **Advances in Artificial Intelligence**. University of Milano-Bicocca, Lake Como School of Advanced Studies, Como, 2019.
+      - **Technical Analysis**. ASSIOM FOREX, Milan, 2018.
+      - **Alpha Class**. University of Turin/Polytechnic of Turin, 2013.
 
   # - title: A Little More About Me
   #   layout: text
