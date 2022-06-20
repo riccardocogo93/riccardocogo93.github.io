@@ -136,16 +136,20 @@ content:
 
             Tutor of the "Maths and Physics" course (Department of Biological Sciences).
 
-  - title: Courses and Summer Schools
+  - title: Courses and awards
     layout: text
     content: |
-      Other courses I've followed.
+      *Courses*
       - **Big Dive: Data Science and Analytics**.Top-IX, Turin, Spring 2019 (Final Project: *NLP and NER on Corporate News*).
 
-      Summer Schools.
+      *Summer Schools*
       - **Advances in Artificial Intelligence**. University of Milano-Bicocca, Lake Como School of Advanced Studies, Como, 2019.
       - **Technical Analysis**. ASSIOM FOREX, Milan, 2018.
       - **Alpha Class**. University of Turin/Polytechnic of Turin, 2013.
+
+      *Awards*
+      - ISBA travel award (500$) for ISBA 2022 world meeting, Montreal, Canada (05/2022)
+      - *Vitale Barberis Canonico* Scholarship (12/2017)
 
   # - title: A Little More About Me
   #   layout: text
